@@ -334,52 +334,46 @@
         font-weight: bold; }
 
 /*==========================================Full Width Image=======================================*/
-#full-width-image {
-  /*  background-image: url("../image/full-width-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;*/ }
-  #full-width-image .content-image {
-    position: relative; }
-    #full-width-image .content-image .img-fluid {
-      width: 100%;
-      height: auto; }
-    #full-width-image .content-image .overlay {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 100%;
-      width: 100%;
-      opacity: 0;
-      transition: .5s ease;
-      background: #4b555f; }
-    #full-width-image .content-image .total-text {
-      font-size: 20px;
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); }
-      #full-width-image .content-image .total-text .get-button button.btn.btn-primary {
-        border-radius: 0;
-        width: 130px;
-        margin: 10px; }
-  #full-width-image .content-image:hover .overlay {
-    opacity: .7; }
-    #full-width-image .content-image:hover .overlay .total-text {
-      color: white;
-      font-size: 20px;
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%); }
-      #full-width-image .content-image:hover .overlay .total-text .get-button button.btn.btn-primary {
-        border-radius: 0;
-        width: 130px;
-        margin: 10px; }
+#full-width-image .content-image {
+  position: relative; }
+  #full-width-image .content-image .img-fluid {
+    width: 100%;
+    height: auto; }
+  #full-width-image .content-image .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    background: transparent; }
+  #full-width-image .content-image .total-text {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    #full-width-image .content-image .total-text .get-button button.btn.btn-primary {
+      border-radius: 0;
+      width: 130px;
+      margin: 10px; }
+#full-width-image .content-image .overlay:hover {
+  background: rgba(75, 85, 95, 0.7); }
+  #full-width-image .content-image .overlay:hover .total-text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    #full-width-image .content-image .overlay:hover .total-text .get-button button.btn.btn-primary {
+      border-radius: 0;
+      width: 130px;
+      margin: 10px; }
 
 /*=========================================== Profile Section ==========================================*/
 #profile-section .total-area {

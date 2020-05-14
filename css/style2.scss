@@ -490,10 +490,7 @@
 /*==========================================Full Width Image=======================================*/
 
 #full-width-image{
-/*  background-image: url("../image/full-width-image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;*/
+
   .content-image{
     position: relative;
     .img-fluid{
@@ -508,9 +505,8 @@
       right: 0;
       height: 100%;
       width: 100%;
-      opacity: 0;
       transition: .5s ease;
-      background: #4b555f;
+      background: transparent;
     }
     .total-text{
       font-size: 20px;
@@ -529,8 +525,8 @@
     }
   }
 
- .content-image:hover .overlay{
-    opacity: .7;
+  .content-image .overlay:hover{
+    background: rgba(75, 85, 95, 0.7);
     .total-text{
       color: white;
       font-size: 20px;
